@@ -27,5 +27,4 @@ curl --request POST \
 ```
 curl --request GET\
   --url https://localhost:44355/Booking
-  --header 'Content-Type: application/json
 ```
