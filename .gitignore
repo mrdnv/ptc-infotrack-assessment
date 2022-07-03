@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/SettlementBookingSystem/bin/Debug/net5.0
+/SettlementBookingSystem/obj
+/.vs/SettlementBookingSystem
+*.user
+/SettlementBookingSystem.Application/bin/Debug/net5.0
+/SettlementBookingSystem.Application/obj
+/SettlementBookingSystem.Application.UnitTests/bin/Debug/net5.0
+/SettlementBookingSystem.Application.UnitTests/obj
+/SettlementBookingSystem.Core/bin/Debug
+/SettlementBookingSystem.Core/obj
+/SettlementBookingSystem.Infrastructure/bin/Debug
+/SettlementBookingSystem.Infrastructure/obj
