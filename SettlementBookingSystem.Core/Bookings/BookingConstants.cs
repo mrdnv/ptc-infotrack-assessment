@@ -7,6 +7,8 @@
         /// </summary>
         internal const int AppointmentDuration = 60;
 
+        internal const int LimitNumberOfAppointments = 4;
+
         internal const int MinWorkingHour = 9;
 
         internal const int MaxWorkingHour = 17;

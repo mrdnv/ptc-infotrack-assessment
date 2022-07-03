@@ -25,7 +25,7 @@ namespace SettlementBookingSystem.Core.Bookings
         /// <returns></returns>
         public Appointment AddNewAppointment(string name, string time)
         {
-            if (_appointments.Count == 4)
+            if (_appointments.Count == LimitNumberOfAppointments)
             {
                 throw new DuplicationException("Cannot add new appointment. Booking calendar for today is full.");
             }
