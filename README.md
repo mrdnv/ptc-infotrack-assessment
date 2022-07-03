@@ -1,5 +1,12 @@
 # SettlementBookingTest
-## Swagger Page
+## Technical notes
+- .NET 5
+- Clean Architecture
+- Domain-drivent design
+- Mediator pattern using MediatR
+- Unit Tests using XUnit
+
+## Swagger
 https://localhost:44355/swagger
 
 ## How to execute
