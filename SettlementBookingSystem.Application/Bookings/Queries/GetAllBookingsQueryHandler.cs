@@ -20,7 +20,9 @@ namespace SettlementBookingSystem.Application.Bookings.Queries
         public Task<IEnumerable<BookingDetailsDto>> Handle(GetAllBookingsQuery request, CancellationToken cancellationToken)
         {
             var bookings = dataContext.BookingCalendars.FirstOrDefault()?
-                .Appointments.Select(appointment => new BookingDetailsDto
+                .Appointments
+                .OrderBy(appointment => appointment.StartTime)
+                .Select(appointment => new BookingDetailsDto
                 {
                     BookingId = appointment.Id,
                     From = appointment.StartTime.ToString(),
